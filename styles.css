@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Codystar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre Barcode 39 Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tilt Prism&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Snowburst One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Qwigley&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 8px rgb(252, 252, 252);
+}
+
+.logo {
+    width: 15%;
+}
+
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+#quote-text {
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Megrim', sans-serif;
+}
+
+#quote-text .quotation-mark {
+    font-family: 'Codystar', sans-serif;
+}
+
+#quote-text .love-emphasis {
+    font-size: 30px;
+    font-family: 'Berkshire Swash', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 8px rgb(252, 252, 252);
+}
+
+#quote-text .flaws-emphasis {
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+    font-family: 'Qwigley', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+#quote-text .scars-emphasis {
+    font-family: 'Libre Barcode 39 Text', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#quote-text .goergeous-emphasis {
+    text-shadow: 0 0 8px rgb(252, 252, 252);
+    font-family: 'Tilt Prism', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#quote-text .weird-emphasis {
+    font-family: 'Kablammo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#quote-text .complements-emphasis {
+    font-family: 'Snowburst One', sans-serif;
+    color: rgb(255, 255, 255);
+}
